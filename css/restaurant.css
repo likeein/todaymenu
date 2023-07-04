@@ -1,0 +1,40 @@
+.map_card {
+  height: 400px;
+  width: 100%;
+}
+
+.google_map {
+  width: 80%;
+}
+
+/*
+ * Optional: Makes the sample page fill the window.
+ */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+ul.a {
+  list-style-type: circle;
+}
+
+.a > li {
+  margin-bottom: 5px;
+  transition: .5s;
+}
+
+.a > li:hover {
+  background-color: #f5f5f5;
+}
+
+.restaurant_name {
+  font-weight: bold;
+}
+
+.add {
+  font-size: 14px;
+  color: dimgray;
+}
